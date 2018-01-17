@@ -17,6 +17,7 @@ android {
 
 //        ndk{
 //            moduleName "hello"
+//            ldLibs "log"
 //        }
     }
     buildTypes {
