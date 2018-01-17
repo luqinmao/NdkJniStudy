@@ -15,6 +15,38 @@ extern "C" {
 JNIEXPORT jstring JNICALL Java_com_lqm_ndkjnistudy_Hello_sayHello
   (JNIEnv *, jclass);
 
+/*
+ * Class:     com_lqm_ndkjnistudy_Hello
+ * Method:    callStaticMethod
+ * Signature: (I)V
+ */
+JNIEXPORT void JNICALL Java_com_lqm_ndkjnistudy_Hello_callStaticMethod__I
+  (JNIEnv *, jclass, jint);
+
+/*
+ * Class:     com_lqm_ndkjnistudy_Hello
+ * Method:    callStaticMethod
+ * Signature: (JLjava/lang/String;)V
+ */
+JNIEXPORT void JNICALL Java_com_lqm_ndkjnistudy_Hello_callStaticMethod__JLjava_lang_String_2
+  (JNIEnv *, jclass, jlong, jstring);
+
+/*
+ * Class:     com_lqm_ndkjnistudy_Hello
+ * Method:    callInstanceMethod
+ * Signature: (I)V
+ */
+JNIEXPORT void JNICALL Java_com_lqm_ndkjnistudy_Hello_callInstanceMethod__I
+  (JNIEnv *, jobject, jint);
+
+/*
+ * Class:     com_lqm_ndkjnistudy_Hello
+ * Method:    callInstanceMethod
+ * Signature: (Ljava/lang/String;J)V
+ */
+JNIEXPORT void JNICALL Java_com_lqm_ndkjnistudy_Hello_callInstanceMethod__Ljava_lang_String_2J
+  (JNIEnv *, jobject, jstring, jlong);
+
 #ifdef __cplusplus
 }
 #endif

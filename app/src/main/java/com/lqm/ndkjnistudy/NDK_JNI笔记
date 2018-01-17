@@ -26,6 +26,8 @@ ABI: 应用程序二进制接口（Application Binary Interface） 定义了二�
     如果你使用CMakeLists，在target_link_libraries标签中加入log
     如果你使用的是MK文件，加入如下语句：LOCAL_LDLIBS := -llog
 
+查看方法签名：
+    G:\myProject\NdkJniStudy\app\build\intermediates\classes\debug>javap -s com.lqm.ndkjnistudy.Hello
 
 
 
