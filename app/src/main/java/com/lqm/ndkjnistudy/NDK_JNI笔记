@@ -30,7 +30,7 @@ ABI: 应用程序二进制接口（Application Binary Interface） 定义了二�
     G:\myProject\NdkJniStudy\app\build\intermediates\classes\debug>javap -s com.lqm.ndkjnistudy.Hello
 
 
-
+adb logcat :查看log信息
 
 
 
